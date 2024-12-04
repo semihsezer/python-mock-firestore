@@ -11,6 +11,8 @@ Python 3.6+ is required for it to work.
 ## Usage
 
 ```python
+from mockfirestore import MockFirestore
+
 db = firestore.Client()
 mock_db = MockFirestore()
 
